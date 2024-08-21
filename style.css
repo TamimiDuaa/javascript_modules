@@ -1,0 +1,46 @@
+body{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width:40%;
+    height: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    box-shadow: 2px gray;
+    background-color: honeydew;
+}
+form{
+    width:90%;
+    
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.tables{
+    width:40%;
+    height:70% ;
+}
+
+input, select{
+    width:100px;
+    height: 2rem;
+    border-radius: 8px;
+    border:none;
+    border-bottom: 0.3px solid gray;
+    background-color: rgb(195, 218, 195);
+}
+select{
+    width:5vw;
+}

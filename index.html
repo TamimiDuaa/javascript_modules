@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <main>
+            <form class="addCourse">
+                <input type="text" id="course_name" placeholder="course name">
+                <input type="number" id="course_capacity" placeholder="course capacity">
+                <input type="submit"  id="add_course" value="Add Course" >
+            </form>
+            <form class="addStudent">
+                <input type="text" id="student_name" placeholder="student name">
+                <input type="number" id="student_age" placeholder="student age">
+                <select class = "courses1">
+
+                </select>
+                <input type="submit" id="add_student" value="Add Student">
+            </form>
+            <form class="addTeacher">
+                <input type="text" id="teacher_name" placeholder="teacher name">
+                <select class = "courses2">
+
+                </select>
+                <input type="submit"  id="add_teacher" value="Add Teacher">
+            </form>
+            
+        </main>
+        <section class="tables">
+            <table class="studentTable">
+               
+               <tr>
+                <th>Student Name</th>
+                <th>Student Age</th>
+            </tr>
+            </table>
+            <table class="TeacherTable">
+               
+                <tr>
+                    <th>Teacher Name</th>
+                   
+                </tr>
+            </table>
+            <table class="coursesTable">
+               
+                <tr>
+                    <th>Course Name</th>
+                    <th>Course Capacity</th>
+                </tr>
+            </table>
+        </section>
+        <script type="module" src="app.mjs" async defer></script>
+    </body>
+</html>
